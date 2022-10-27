@@ -4,6 +4,7 @@ on:
   - pull_request
   - workflow_dispatch
   # just add a comment to trigger the workflow
+  # add another
 jobs:
   test:
     name: Node.js ${{ matrix.node-version }}
